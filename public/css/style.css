@@ -1,0 +1,64 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.col-centered {
+  left:0;
+  right:0;
+  margin: auto;
+}
+
+.no-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.search-input {
+  padding-left:70px !important;
+  background-size: 40px 40px;
+  background-position: 20px center;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='2.2' stroke='currentColor' class='relative -top-0.5 inline-block inherit w-6 h-6'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z' /%3E%3C/svg%3E");
+}
+
+.featured-image {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.water-image {
+  background-image: url("../img/water.jpg");
+}
+
+.formula-image {
+  background-image: url("../img/baby-formula.png");
+}
+
+.forced-labor-image {
+  background-image: url("../img/forced-labor.jpeg");
+}
+
+.child-labor-image {
+  background-image: url("../img/child-labor.jpeg");
+}
+
+.plastic-pollution-image {
+  background-image: url("../img/plastic.jpeg");
+}
+
+.drought-image {
+  background-image: url("../img/california-drought.jpeg");
+}
+
+.money-image {
+  background-image: url("../img/money.jpg");
+}
